@@ -187,5 +187,3 @@ Human-readable formatted version of the above.
 - Windows / Linux / Mac
 
 ---
-
-*Built by [Your Name] for Zycus AI Engineer Intern technical assignment, July 2026.*
