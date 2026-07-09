@@ -1,0 +1,57 @@
+{
+  "project_name": "Zycus - UniSan S2P Implementation",
+  "report_date": "2026-07-09",
+  "rag_status": "Red",
+  "executive_summary": "The project is currently rated Red due to a significant shortfall in task completion, with only 38.8% completed against an expected 61.7%. While the project is slightly ahead of schedule and milestones are on track, 42 tasks are flagged as Red, indicating potential issues that could jeopardize the overall timeline if not immediately addressed.",
+  "reasoning": {
+    "schedule": "The project is currently ahead of schedule, with a maximum slippage of -2 days, indicating it is slightly ahead of its planned timeline.",
+    "completion_rate": "Project completion is significantly behind target, with only 38.8% of tasks completed against an expected 61.7% by today, resulting in a 22.9% deficit.",
+    "milestone_health": "All tracked project milestones are currently on schedule, posing no immediate concerns.",
+    "blockers_risks": "Despite having 0 'At-Risk' or 'On-Hold' tasks, the project plan currently identifies 42 tasks as Red and 9 tasks as Yellow, indicating underlying issues that need immediate attention.",
+    "stakeholder_sentiment": "Information regarding stakeholder sentiment was not provided in the available data."
+  },
+  "key_metrics": {
+    "overall_completion_pct": 38.8,
+    "tasks_at_risk": 0,
+    "days_to_deadline": 92,
+    "worst_slippage_days": -2
+  },
+  "top_risks": [
+    "Significant completion rate deficit (22.9%) against planned progress.",
+    "42 tasks are currently flagged as Red in the project plan, indicating unaddressed critical issues.",
+    "Potential for project delays given 175 tasks are 'Not Started' and a large completion gap exists."
+  ],
+  "recommendations": [
+    "Immediately review the 175 'Not Started' tasks and 35 'In Progress' tasks to identify root causes for the 22.9% completion deficit and develop a recovery plan.",
+    "Initiate a focused deep dive on the 42 tasks flagged as Red in the plan to understand their blockers and impact, then assign dedicated resources for resolution.",
+    "Re-evaluate critical path tasks and resource allocation to accelerate progress on remaining work and mitigate the risk of future schedule slippage."
+  ],
+  "data_quality_notes": "Stakeholder sentiment data was not provided. There is a discrepancy between the total tasks listed in the 'TASK SUMMARY' (343 tasks) and the total tasks from the 'RAG STATUS DISTRIBUTION' (383 tasks), which may affect the precise overall RAG status distribution analysis.",
+  "_meta": {
+    "file": "Project Plan B.xlsx",
+    "algo_rag": "Red",
+    "algo_dimensions": {
+      "schedule_slippage": {
+        "rag": "Green",
+        "detail": "Max slippage is -2 days \u2014 within tolerance."
+      },
+      "completion_rate": {
+        "rag": "Red",
+        "detail": "Expected 61.7% complete by today; actual 38.8%. Gap = 22.9%."
+      },
+      "rag_distribution": {
+        "rag": "Amber",
+        "detail": "42 Red + 9 Amber out of 383 tasks."
+      },
+      "on_hold_tasks": {
+        "rag": "Green",
+        "detail": "0 tasks On Hold \u2014 acceptable."
+      },
+      "milestone_health": {
+        "rag": "Green",
+        "detail": "All tracked milestones are on schedule."
+      }
+    },
+    "generated_at": "2026-07-09T10:30:17.555645"
+  }
+}

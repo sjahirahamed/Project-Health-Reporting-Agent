@@ -13,9 +13,7 @@ venv/
 .venv/
 env/
 
-# Generated outputs (too large for git, regenerate by running the agent)
-outputs/
-presentations/
+# Logs only (auto-generated noise)
 logs/
 
 # Excel temp files

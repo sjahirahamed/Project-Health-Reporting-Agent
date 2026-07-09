@@ -1,0 +1,40 @@
+======================================================================
+[RED]  PROJECT HEALTH REPORT  [RED]
+Project : Zycus - UniSan S2P Implementation
+Date    : 2026-07-09
+RAG     : Red
+======================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------
+The project is currently rated Red due to a significant shortfall in task completion, with only 38.8% completed against an expected 61.7%. While the project is slightly ahead of schedule and milestones are on track, 42 tasks are flagged as Red, indicating potential issues that could jeopardize the overall timeline if not immediately addressed.
+
+DETAILED REASONING
+----------------------------------------
+  [SCHEDULE] The project is currently ahead of schedule, with a maximum slippage of -2 days, indicating it is slightly ahead of its planned timeline.
+  [COMPLETION RATE] Project completion is significantly behind target, with only 38.8% of tasks completed against an expected 61.7% by today, resulting in a 22.9% deficit.
+  [MILESTONE HEALTH] All tracked project milestones are currently on schedule, posing no immediate concerns.
+  [BLOCKERS RISKS] Despite having 0 'At-Risk' or 'On-Hold' tasks, the project plan currently identifies 42 tasks as Red and 9 tasks as Yellow, indicating underlying issues that need immediate attention.
+  [STAKEHOLDER SENTIMENT] Information regarding stakeholder sentiment was not provided in the available data.
+
+KEY METRICS
+----------------------------------------
+  Overall Completion : 38.8%
+  Tasks At Risk      : 0
+  Days to Deadline   : 92
+  Worst Slippage     : -2 days
+
+TOP RISKS
+----------------------------------------
+  1. Significant completion rate deficit (22.9%) against planned progress.
+  2. 42 tasks are currently flagged as Red in the project plan, indicating unaddressed critical issues.
+  3. Potential for project delays given 175 tasks are 'Not Started' and a large completion gap exists.
+
+RECOMMENDATIONS
+----------------------------------------
+  1. Immediately review the 175 'Not Started' tasks and 35 'In Progress' tasks to identify root causes for the 22.9% completion deficit and develop a recovery plan.
+  2. Initiate a focused deep dive on the 42 tasks flagged as Red in the plan to understand their blockers and impact, then assign dedicated resources for resolution.
+  3. Re-evaluate critical path tasks and resource allocation to accelerate progress on remaining work and mitigate the risk of future schedule slippage.
+
+DATA NOTES: Stakeholder sentiment data was not provided. There is a discrepancy between the total tasks listed in the 'TASK SUMMARY' (343 tasks) and the total tasks from the 'RAG STATUS DISTRIBUTION' (383 tasks), which may affect the precise overall RAG status distribution analysis.
+======================================================================
