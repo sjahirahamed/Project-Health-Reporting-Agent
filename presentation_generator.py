@@ -112,6 +112,13 @@ def _set_slide_bg(slide, color: RGBColor):
     fill.fore_color.rgb = color
 
 
+def _truncate(text: str, limit: int) -> str:
+    """Cut text at a word boundary and append ellipsis if it exceeds limit."""
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0] + "..."
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Gemini synthesis
 # ─────────────────────────────────────────────────────────────────────────────
@@ -275,16 +282,16 @@ def _slide_portfolio_snapshot(prs: Presentation, synthesis: dict, reports: list[
                      0.8, 0.3, font_size=9, bold=True, color=rag_color)
 
         # Project name
-        _add_textbox(slide, proj.get("name", "")[:35], x + 0.15, y + 0.5,
+        _add_textbox(slide, _truncate(proj.get("name", ""), 35), x + 0.15, y + 0.5,
                      tile_w - 0.3, 0.45, font_size=12, bold=True, color=C_WHITE)
 
         # One-liner
-        _add_textbox(slide, proj.get("one_liner", "")[:100],
+        _add_textbox(slide, _truncate(proj.get("one_liner", ""), 120),
                      x + 0.15, y + 1.0, tile_w - 0.3, 0.8,
                      font_size=10, color=C_LIGHT_GRAY)
 
         # Action
-        _add_textbox(slide, f"▶ {proj.get('action', '')[:80]}",
+        _add_textbox(slide, ">> " + _truncate(proj.get("action", ""), 90),
                      x + 0.15, y + 1.85, tile_w - 0.3, 0.5,
                      font_size=9, color=C_ACCENT, italic=True)
 
