@@ -2,7 +2,7 @@
 
 > AI-powered automated project health reporting using **Gemini 2.5 Flash** + rule-based RAG scoring.
 
-Built as part of the Zycus AI Engineer Intern technical assignment.
+
 
 ---
 
